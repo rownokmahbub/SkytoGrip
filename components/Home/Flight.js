@@ -1,8 +1,38 @@
 import Link from "next/link";
 import React from "react";
 import { BiCategory } from "react-icons/bi";
-
+import Slider from "react-slick";
 const Flight = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+
+      };
+      const offers=[
+        {
+            title:'Federal Bank Limited',
+            sub:'Get up to 15% off on Flights with Federal Bank Cards.',
+            code:"RMDDFF23"
+        },
+        {
+            title:'Federal Bank Limited',
+            sub:'Get up to 15% off on Flights with Federal Bank Cards.',
+            code:"RMDDFF23"
+        },
+        {
+            title:'Federal Bank Limited',
+            sub:'Get up to 15% off on Flights with Federal Bank Cards.',
+            code:"RMDDFF23"
+        },
+        {
+            title:'Federal Bank Limited',
+            sub:'Get up to 15% off on Flights with Federal Bank Cards.',
+            code:"RMDDFF23"
+        },
+      ]
   const ctg = [
     {
       title: "Delhi to Mumbai DEBBOM",
@@ -74,18 +104,31 @@ const Flight = () => {
             })}
           </div>
         </div>
+
         <div className="bg-gray-50 px-6 py-6 rounded-xl">
-          <div className="flex flex-col gap-5 bg-white rounded-xl px-6 py-4">
-            <p className="text-xl font-semibold">Federal Bank Limited</p>
-            <p className="text-lg ">
-              Get up to 15% off on Flights with Federal Bank Cards.
-            </p>
-            <div className="flex gap-4 items-center">
-            <p className="text-xl capitalize">coupon Code</p>
-            <button className="btn btn-sm btn-outline btn-primary">RMDET445</button>
-            </div>
-            <p className="text-lg text-primary cursor-pointer hover:underline">know more</p>
-          </div>
+        <Slider {...settings}>
+            {offers.map((offer,i)=>{
+                return(
+                    <div key={i} className=" bg-white h-60 rounded-xl px-6 py-4">
+                    <p className="text-xl font-semibold py-2">{offer.title}</p>
+                    <p className="text-lg ">
+                      {offer.sub}
+                    </p>
+                    <div className="flex gap-4 py-2 items-center">
+                    <p className="text-xl capitalize">coupon Code</p>
+                    <button className="btn btn-sm btn-outline btn-primary">{offer.code}</button>
+                    </div>
+                    <p className="text-lg text-primary cursor-pointer hover:underline pt-4">know more</p>
+                  </div>
+                )
+            })}
+      
+        
+       
+       
+         
+        </Slider>
+        
         </div>
       </div>
     </div>
