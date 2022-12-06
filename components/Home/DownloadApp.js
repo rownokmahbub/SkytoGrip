@@ -1,5 +1,6 @@
 import React from 'react'
-
+import {FaGooglePlay} from 'react-icons/fa'
+import {AiFillApple} from 'react-icons/ai'
 const DownloadApp = () => {
   return (
     <div>
@@ -16,13 +17,16 @@ const DownloadApp = () => {
             <p className="text-gray-700 text-base md:text-lg mb-5">Get India 1 travel super app, join 100 Million+ happy travelers!</p>
             <div className="flex gap-10 items-center">
             <img src="/assets/qrcode.png" alt="" />
-            <div className="flex items-center flex-col gap-10">
-            <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
-              <img src="https://kitwind.io/assets/kometa/app-store.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
-            </a>
-            <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
-              <img src="https://kitwind.io/assets/kometa/google-play.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
-            </a>
+            <div className="flex items-center flex-col gap-6">
+                <div className="flex items-center btn btn-primary gap-3">
+                <FaGooglePlay className='text-xl'/>
+                Google play
+                </div>
+        
+                <div className="flex items-center btn btn-danger gap-3">
+                <AiFillApple className='text-xl'/>
+                Google play
+                </div>
           </div>
             </div>
            
