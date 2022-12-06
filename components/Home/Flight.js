@@ -35,43 +35,43 @@ const Flight = () => {
       ]
   const ctg = [
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
     {
-      title: "Delhi to Mumbai DEBBOM",
+      title: "Delhi to Mumbai ",
       src: "https://tailwindcss.com/docs/grid-column",
     },
   ];
