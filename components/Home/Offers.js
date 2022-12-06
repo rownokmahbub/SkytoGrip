@@ -97,7 +97,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -110,7 +110,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -123,7 +123,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -136,63 +136,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
-          </Tab.Panel>
-          <Tab.Panel>
-            <div className="grid grid-cols-1 sm:grid-cols-2  gap-10 bg-gray-50 px-6 py-6 rounded-xl">
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -209,7 +153,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -222,7 +166,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -235,7 +179,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -248,63 +192,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
-          </Tab.Panel>
-          <Tab.Panel>
-            <div className="grid grid-cols-1 sm:grid-cols-2  gap-10 bg-gray-50 px-6 py-6 rounded-xl">
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
-                        <button className="btn btn-primary  rounded-full">Book Now</button>
-                        </div>
-                      
-                    </div>
-                </div>
-                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
-                    <img src="/assets/of1.png" alt="offer1" />
-                    <div className="flex flex-col gap-2">
-                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
-                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
-                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
-                        <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -321,7 +209,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -334,7 +222,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -347,7 +235,7 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       
@@ -360,7 +248,119 @@ const Offers = () => {
                         <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
                         <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
                         <div className="flex items-center justify-between pt-5">
-                        <p className="text-red-400 font-medium text-xl">T&C's Apply</p>
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+          </Tab.Panel>
+          <Tab.Panel>
+            <div className="grid grid-cols-1 sm:grid-cols-2  gap-10 bg-gray-50 px-6 py-6 rounded-xl">
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+          </Tab.Panel>
+          <Tab.Panel>
+            <div className="grid grid-cols-1 sm:grid-cols-2  gap-10 bg-gray-50 px-6 py-6 rounded-xl">
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
+                        <button className="btn btn-primary  rounded-full">Book Now</button>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
+                    <img src="/assets/of1.png" alt="offer1" />
+                    <div className="flex flex-col gap-2">
+                        <p className="text-gray-500 text-lg font-medium">DomFlight</p>
+                        <p className="text-2xl font-semibold">Find the best Flight for your next booking</p>
+                        <p className="text-gray-500">with our Stamp-That-Passport Sale!</p>
+                        <div className="flex items-center justify-between pt-5">
+                        <p className="text-red-400 font-medium text-xl">T Cs Apply</p>
                         <button className="btn btn-primary  rounded-full">Book Now</button>
                         </div>
                       

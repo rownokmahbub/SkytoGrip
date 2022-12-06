@@ -13,7 +13,7 @@ const DownloadApp = () => {
             <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none max-w-lg mb-6">
             Download App Now !
             </h2>
-            <p className="text-gray-700 text-base md:text-lg mb-5">Get India's #1 travel super app, join 100 Million+ happy travelers!</p>
+            <p className="text-gray-700 text-base md:text-lg mb-5">Get India 1 travel super app, join 100 Million+ happy travelers!</p>
             <div className="flex gap-10 items-center">
             <img src="/assets/qrcode.png" alt="" />
             <div className="flex items-center flex-col gap-10">
