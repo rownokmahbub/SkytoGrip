@@ -3,6 +3,7 @@ import Image from "next/image";
 import Offers from "../components/Home/Offers";
 import Hero from "../components/Home/Hero";
 import DownloadApp from "../components/Home/DownloadApp";
+import Flight from "../components/Home/Flight";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero/>
       <Offers/>
       <DownloadApp/>
+      <Flight/>
     </div>
   );
 }
