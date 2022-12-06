@@ -35,12 +35,12 @@ module.exports = {
 
       colors: {
         bg: {
-          DEFAULT: "#202020",
+          DEFAULT: "#009dfb",
           200: "#272727",
           300: "#2e2e2e",
         },
         primary: {
-          DEFAULT: "#DA1E37",
+          DEFAULT: "#009dfb",
           50: "#F7C6C6",
           100: "#F5B4B4",
           200: "#F09090",
@@ -60,7 +60,7 @@ module.exports = {
       {
         light: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
-          primary: "#DA1E37",
+          primary: "#009dfb",
           "primary-focus": "#E74848",
         },
       },
