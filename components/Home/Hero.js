@@ -18,7 +18,7 @@ const Hero = () => {
       <Tab.List className='flex gap-5'>
         <Tab className={({ selected }) =>
                 classNames(
-                  'w-full rounded-xl py-2.5 text-sm font-medium  text-primary',
+                  'w-full rounded-full py-2.5 text-sm font-medium  text-primary',
                   'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-white shadow'
@@ -27,7 +27,7 @@ const Hero = () => {
               }>One Way</Tab>
         <Tab className={({ selected }) =>
                 classNames(
-                  'w-full rounded-lg py-2.5 text-sm font-medium  text-primary',
+                  'w-full rounded-full py-2.5 text-sm font-medium  text-primary',
                   'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-white shadow'
