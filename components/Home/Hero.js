@@ -9,11 +9,11 @@ function classNames(...classes) {
 const Hero = () => {
 
   return (
-    <div className="mb-16">
+    <div className="">
     <div className="bg-gradient-to-t from-cyan-50 to-red-50">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto px-4 md:px-10 lg:max-w-5xl md:mb-12 bg-gray-50 rounded-xl drop-shadow-xl">
-        <div className="w-full max-w-md px-10 py-4 sm:px-0 ">
+        <div className="w-full max-w-md px-10 py-4 sm:px-0">
         <Tab.Group>
       <Tab.List className='flex gap-5'>
         <Tab className={({ selected }) =>
@@ -78,7 +78,7 @@ const Hero = () => {
         
       </div>
     </div>
-    <div className="relative px-4 sm:px-0">
+    <div className="relative px-4 sm:px-0 bg-gradient-to-t from-green-100 to-cyan-100">
       <div className="absolute inset-0 bg-gradient-to-t from-cyan-50 to-cyan-50 drop h-1/2" />
       <div className="relative grid mx-auto overflow-hidden bg-white drop-shadow-xl divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-lg">
         <div className="inline-block p-8 text-center">
