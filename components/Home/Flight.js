@@ -85,7 +85,7 @@ const Flight = () => {
       </div>
 
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-10">
-        <div className=" col-span-2 bg-gradient-to-r from-teal-50 to-cyan-50 px-10 py-7 rounded-xl  gap-5">
+        <div className=" col-span-2 bg-gradient-to-r from-teal-100 to-cyan-100 px-10 py-7 rounded-xl  gap-5">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
             {ctg.map((ct, i) => {
               return (
@@ -95,7 +95,7 @@ const Flight = () => {
                   </p>
                   <Link
                     href={ct.src}
-                    className="btn btn-outline btn-primary btn-sm capitalize rounded-full"
+                    className="btn btn-outline btn-primary  btn-sm capitalize rounded-full"
                   >
                     Search Flight
                   </Link>
@@ -105,7 +105,7 @@ const Flight = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-teal-50 to-cyan-50   px-6 py-6 rounded-xl">
+        <div className="bg-gradient-to-r from-teal-100 to-cyan-100   px-6 py-6 rounded-xl">
         <Slider {...settings}>
             {offers.map((offer,i)=>{
                 return(
