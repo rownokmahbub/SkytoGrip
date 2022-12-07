@@ -62,12 +62,12 @@ const BusOffer = () => {
                 <div key={i} className="flex flex-col gap-3 bg-white px-4 py-4 rounded-xl">
                 <img className="w-full h-44 object-cover rounded-xl" src={bus.img} alt="offer1" />
                 <div className="flex flex-col gap-2">
-                    <p className="text-gray-500 text-lg font-medium">{bus.head}</p>
-                    <p className="text-2xl font-semibold">{bus.title}</p>
+                    <p className="text-gray-500 text-sm md:text-lg font-medium">{bus.head}</p>
+                    <p className="text-lg md:text-2xl font-semibold">{bus.title}</p>
                     <p className="text-gray-500">{bus.sub}</p>
                     <div className="flex items-center justify-between pt-5">
-                    <p className="text-red-400 font-medium text-xl">{bus.code}</p>
-                    <Link href={bus.src} className="btn btn-primary  rounded-full">Book Now</Link>
+                    <p className="text-red-400 font-medium text-sm md:text-xl">{bus.code}</p>
+                    <Link href={bus.src} className="btn btn-primary btn-sm md:btn-md rounded-full capitalize">Book Now</Link>
                     </div>
                   
                 </div>

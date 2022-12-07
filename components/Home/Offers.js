@@ -24,7 +24,7 @@ const Offers = () => {
       <p className="text-4xl font-semibold pt-10">Offers</p>
       <div className="md:h-max">
       <Tab.Group>
-        <Tab.List className="flex gap-5 my-10 ">
+        <Tab.List className="flex flex-col lg:flex-row gap-5 my-10 ">
           <Tab
             className={({ selected }) =>
               classNames(
