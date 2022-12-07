@@ -4,6 +4,7 @@ import Offers from "../components/Home/Offers";
 import Hero from "../components/Home/Hero";
 import DownloadApp from "../components/Home/DownloadApp";
 import Flight from "../components/Home/Flight";
+import Service from "../components/Home/Service";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
+      <Service/>
       <Offers/>
       <DownloadApp/>
       <Flight/>

@@ -9,7 +9,7 @@ export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div class="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-4">
+      <div class="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-4 ">
         <div class="relative flex items-center justify-between">
           <Link
             href="/"
