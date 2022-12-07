@@ -17,7 +17,7 @@ export const Nav = () => {
             title="Company"
             class="inline-flex items-center"
           >
-         <img className="w-32 h-14" src="/assets/logo.svg" alt="logo" />
+         <img className="w-32 h-12" src="/assets/logo.png" alt="logo" />
           </Link>
           <ul class=" items-center hidden space-x-8 lg:flex">
           
@@ -113,7 +113,7 @@ export const Nav = () => {
             title="Company"
             class="inline-flex items-center"
           >
-         <img className="w-32 h-14" src="/assets/logo.svg" alt="logo" />
+         <img className="w-32 h-12" src="/assets/logo.png" alt="logo" />
           </Link>
                     </div>
                     <div>
