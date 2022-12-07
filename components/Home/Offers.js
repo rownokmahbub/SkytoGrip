@@ -4,7 +4,7 @@ import { Tab } from "@headlessui/react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { offerjson } from "../../data/OfferJson";
+
 import BusOffer from "./BusOffer";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
