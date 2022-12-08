@@ -199,9 +199,20 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        <div className=" mx-auto flex flex-col lg:flex-row justify-between gap-4 items-center  py-10 ">
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/1.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/2.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/3.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/4.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/5.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/6.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/7.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/8.png" alt="" />
+            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/9.png" alt="" />
+        </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
           <p className="text-sm text-gray-500">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+            © Copyright 2022 Lorem Inc. All rights reserved.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
