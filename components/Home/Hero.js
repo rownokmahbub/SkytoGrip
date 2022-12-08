@@ -12,10 +12,10 @@ const Hero = () => {
     <div className="">
     <div className="bg-gradient-to-r from-red-400 to-cyan-400">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
-        <div className="max-w-xl mb-10 md:mx-auto px-2 md:px-10 lg:max-w-5xl md:mb-12 bg-gray-50 rounded-xl drop-shadow-xl">
-        <div className="w-full max-w-md px-3 py-4 md:px-10 z-10">
+        <div className="max-w-xl mb-10 md:mx-auto px-2 lg:max-w-6xl md:mb-12 bg-gray-50 rounded-xl drop-shadow-xl">
+    
         <Tab.Group>
-      <Tab.List className='flex gap-5'>
+      <Tab.List className='flex gap-5 w-full max-w-sm px-3 py-4 md:px-10 z-10'>
         <Tab className={({ selected }) =>
                 classNames(
                   'w-full rounded-full py-2.5 text-sm font-medium  text-primary',
@@ -37,43 +37,86 @@ const Hero = () => {
        
       </Tab.List>
       <Tab.Panels>
-        <Tab.Panel>
-           <div className="flex flex-col lg:flex-row gap-3 lg:gap-5 flex-wrap lg:flex-nowrap items-center py-5">
-            <div className="flex  flex-col gap-1 bg-white lg:px-4 px-4 py-2 rounded-xl border border-gray-300">
-                <p className='text-lg font-medium'>From</p>
-                <input className='bg-white w-[240px] md:w-[180px]  py-2 focus:outline-none' type="text" placeholder='Delhi..' />
+        <Tab.Panel className='w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 lg:gap-10 items-center py-5 px-3 md:px-6'>
+           
+        <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
+                <p className='text-lg font-medium'>To</p>
              
+                <input className='bg-white py-2 focus:outline-none' type="text" placeholder='Bengaluru..' />
+               
             </div>
 
             <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
                 <p className='text-lg font-medium'>To</p>
              
-                <input className='bg-white w-[240px] md:w-[180px]  py-2 focus:outline-none' type="text" placeholder='Bengaluru..' />
+                <input className='bg-white py-2 focus:outline-none' type="text" placeholder='Bengaluru..' />
                
             </div>
 
             <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
                 <p className='text-lg font-medium'>Departure</p>
-                <input className='bg-white w-[240px] md:w-[180px] py-2 focus:outline-none' type="date" placeholder='5 Dec 22' />
+                <input className='bg-white  py-2 focus:outline-none' type="date" placeholder='5 Dec 22' />
+            
+            </div>
+            <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
+                <p className='text-lg font-medium'>Return</p>
+                <input className='bg-white  py-2 focus:outline-none' type="date" placeholder='5 Dec 22' />
             
             </div>
 
             <div className="flex  flex-col gap-1  bg-white px-4 py-4 rounded-xl border border-gray-300">
                 <p className='text-lg font-medium capitalize'>travellers & Class</p>
-                <select className='w-[240px] md:w-[180px]' name="select" id="">
+                <select className='' name="select" id="">
                     <option value="1 traveler">1 traveler</option>
                     <option value="2 traveler">2 traveler</option>
                     <option value="3 traveler">3 traveler</option>
                     <option value="4 traveler">4 traveler</option>
                 </select>
             </div>
-           </div>
+       
         </Tab.Panel>
-        <Tab.Panel>Content 2</Tab.Panel>
+        <Tab.Panel className='w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 lg:gap-10 items-center py-5 px-3 md:px-6'>
+           
+        <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
+                <p className='text-lg font-medium'>To</p>
+             
+                <input className='bg-white py-2 focus:outline-none' type="text" placeholder='Bengaluru..' />
+               
+            </div>
+
+            <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
+                <p className='text-lg font-medium'>To</p>
+             
+                <input className='bg-white py-2 focus:outline-none' type="text" placeholder='Bengaluru..' />
+               
+            </div>
+
+            <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
+                <p className='text-lg font-medium'>Departure</p>
+                <input className='bg-white  py-2 focus:outline-none' type="date" placeholder='5 Dec 22' />
+            
+            </div>
+            <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300">
+                <p className='text-lg font-medium'>Return</p>
+                <input className='bg-white  py-2 focus:outline-none' type="date" placeholder='5 Dec 22' />
+            
+            </div>
+
+            <div className="flex  flex-col gap-1  bg-white px-4 py-4 rounded-xl border border-gray-300">
+                <p className='text-lg font-medium capitalize'>travellers & Class</p>
+                <select className='' name="select" id="">
+                    <option value="1 traveler">1 traveler</option>
+                    <option value="2 traveler">2 traveler</option>
+                    <option value="3 traveler">3 traveler</option>
+                    <option value="4 traveler">4 traveler</option>
+                </select>
+            </div>
+       
+        </Tab.Panel>
       
       </Tab.Panels>
     </Tab.Group>
-    </div>
+ 
         </div>
         
       </div>
