@@ -199,16 +199,16 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className=" mx-auto flex flex-col lg:flex-row justify-between gap-4 items-center  py-10 ">
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/1.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/2.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/3.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/4.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/5.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/6.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/7.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/8.png" alt="" />
-            <img className='w-18 h-10 md:h-18 rounded-lg md:w-24' src="/assets/footer/9.png" alt="" />
+        <div className=" mx-auto flex flex-col lg:flex-row justify-between gap-2 items-center  py-10 ">
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/1.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/2.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/3.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/4.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/5.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/6.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/7.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/8.png" alt="" />
+            <img className='w-24 h-10 md:h-20 rounded-lg md:w-28' src="/assets/footer/9.png" alt="" />
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
           <p className="text-sm text-gray-500">
