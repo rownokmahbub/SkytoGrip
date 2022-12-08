@@ -4,7 +4,7 @@ import {AiFillApple} from 'react-icons/ai'
 const DownloadApp = () => {
   return (
     <div className='bg-gradient-to-t from-cyan-100 to-teal-50'>
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:px-8 lg:py-20 ">
+        <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  lg:px-8  ">
       <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
         <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
           <div className="max-w-xl mb-6">

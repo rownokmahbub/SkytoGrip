@@ -56,7 +56,7 @@ const BusOffer = () => {
         ]
   
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-10 md:gap-10  px-6  rounded-xl py-10'>
+    <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-10 md:gap-10  px-6  rounded-xl py-4'>
         {buses.map((bus,i)=>{
             return(
                 <div key={i} className="flex flex-col gap-3 bg-white px-4 py-4 rounded-xl">

@@ -84,8 +84,8 @@ const Flight = () => {
         <p className="text-3xl font-medium my-10 ">New Offer</p>
       </div>
 
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10">
-        <div className=" col-span-2 bg-gradient-to-r from-teal-100 to-cyan-100 px-10 py-7 rounded-xl  gap-5">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-5">
+        <div className=" col-span-2 border border-gray-300 px-10 py-7 rounded-xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
             {ctg.map((ct, i) => {
               return (
@@ -105,7 +105,7 @@ const Flight = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-teal-100 to-cyan-100   px-6 py-6 rounded-xl">
+        <div className="bg-gradient-to-r from-teal-300 to-cyan-400  px-10 py-6 rounded-xl">
         <Slider {...settings}>
             {offers.map((offer,i)=>{
                 return(

@@ -24,7 +24,7 @@ const Offers = () => {
       <p className="text-4xl font-semibold pt-10">Offers</p>
       <div className="md:h-max">
       <Tab.Group>
-        <Tab.List className="flex flex-col lg:flex-row gap-5 my-10 ">
+        <Tab.List className="flex flex-col lg:flex-row gap-2 my-5">
           <Tab
             className={({ selected }) =>
               classNames(
@@ -96,7 +96,7 @@ const Offers = () => {
           <BusOffer/>
           </Tab.Panel>
           <Tab.Panel>
-            <div className="grid grid-cols-1 sm:grid-cols-2  gap-10  px-6 py-6 rounded-xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2  gap-10  px-4 py-2 rounded-xl">
                 <div className="flex gap-5 bg-white px-4 py-4 rounded-xl">
                     <img src="/assets/of1.png" alt="offer1" />
                     <div className="flex flex-col gap-2">
