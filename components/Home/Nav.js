@@ -9,7 +9,7 @@ export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div class="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-4 ">
+      <div class="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-4">
         <div class="relative flex items-center justify-between">
           <Link
             href="/"
@@ -68,7 +68,7 @@ export const Nav = () => {
               <p>Support</p>
               </Link>
           </ul>
-          <ul class=" items-center hidden space-x-8 lg:flex">
+          <ul class=" items-center hidden space-x-8 lg:flex z-30">
         
               <Link
                 href="/"
@@ -103,7 +103,7 @@ export const Nav = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div class="absolute top-0 left-0 w-full">
+              <div class="absolute top-0 left-0 w-full z-30">
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
