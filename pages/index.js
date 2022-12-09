@@ -5,6 +5,7 @@ import Hero from "../components/Home/Hero";
 import DownloadApp from "../components/Home/DownloadApp";
 import Flight from "../components/Home/Flight";
 import Service from "../components/Home/Service";
+import Benifits from "../components/Home/Benifits";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Offers/>
       <DownloadApp/>
       <Flight/>
+      <Benifits/>
     </div>
   );
 }

@@ -76,12 +76,12 @@ const Flight = () => {
     },
   ];
   return (
-    <div className="container mx-auto md:h-screen">
+    <div className="container mx-auto my-10">
       <div className="grid grid-cols-1 xl:grid-cols-3 ">
-        <p className="text-3xl font-medium my-10 col-span-2">
+        <p className="text-3xl font-medium mb-10 col-span-2">
           Top Flight Routes
         </p>
-        <p className="text-3xl font-medium my-10 ">New Offer</p>
+        <p className="text-3xl font-medium mb-10">New Offer</p>
       </div>
 
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-5">

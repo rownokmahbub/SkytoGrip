@@ -198,16 +198,16 @@ const Footer = () => {
               spare ribs salami.
             </p>
             <p className='text-center font-semibold text-white text-xl py-5'>Our Payment Options</p>
-        <div className=" mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 items-center  py-10 ">
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/1.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/2.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/3.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/4.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/5.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/6.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/7.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/8.png" alt="" />
-            <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/9.png" alt="" />
+        <div className=" mx-auto flex flex-wrap gap-3 items-center  py-1">
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/1.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/2.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/3.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/4.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/5.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/6.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/7.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/8.png" alt="" />
+            <img className='w-12 h-8  rounded-lg ' src="/assets/footer/9.png" alt="" />
         </div>
 
           </div>
