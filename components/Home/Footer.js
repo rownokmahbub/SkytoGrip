@@ -188,7 +188,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
               >
                 Subscribe
               </button>
@@ -197,8 +197,8 @@ const Footer = () => {
               Bacon ipsum dolor amet short ribs pig sausage prosciuto chicken
               spare ribs salami.
             </p>
-            <p className='text-center font-semibold text-white text-xl py-2'>Our Payment Options</p>
-        <div className=" mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 items-center  py-10 ">
+            <p className='text-center font-semibold text-white text-xl py-5'>Our Payment Options</p>
+        <div className=" mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 items-center  py-10 ">
             <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/1.png" alt="" />
             <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/2.png" alt="" />
             <img className='w-24 h-10 md:h-14 rounded-lg md:w-20' src="/assets/footer/3.png" alt="" />
