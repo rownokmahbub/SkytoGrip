@@ -20,7 +20,7 @@ const Benifits = () => {
         <div className=" flex flex-col gap-1 justify-center items-center">
             <MdSupportAgent className='text-3xl text-white'/>
             <p className='text-lg md:text-xl text-white font-semibold'>24X7 Support</p>
-            <p className='text-gray-100 text-center text-sm md:text-base'>We're here to help. Have a query and need help ? <span className='text-gray-200 cursor-pointer'>Click Here</span> </p>
+            <p className='text-gray-100 text-center text-sm md:text-base'>We are here to help. Have a query and need help ? <span className='text-gray-200 cursor-pointer'>Click Here</span> </p>
         </div>
     </div>
 </div>
