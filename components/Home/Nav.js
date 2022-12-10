@@ -9,7 +9,7 @@ export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div class="fixed top-0 left-0 right-0 z-50 bg-gray-200 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60  ">
+      <div class="fixed top-0 left-0 right-0 z-50 bg-gray-50 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70  ">
         <div class="relative flex items-center justify-between px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-4 h-full w-full ">
           <Link
             href="/"
@@ -22,13 +22,13 @@ export const Nav = () => {
           <ul class=" items-center hidden space-x-8 lg:flex">
           
               <Link
-                href="/"
+                href="/flight"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiFlightTakeoffLine  className="text-2xl text-cyan-600"/>
-              <p className="text-xl">Flight</p>
+                <RiFlightTakeoffLine  className="text-2xl text-primary"/>
+              <p className="text-lg text-black">Flight</p>
               </Link>
            
               <Link
@@ -37,8 +37,17 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiHotelFill  className="text-2xl text-cyan-600"/>
-              <p className="text-xl">Hotels</p>
+                <RiHotelFill  className="text-2xl text-primary"/>
+              <p className="text-lg text-black">Hotels</p>
+              </Link>
+              <Link
+                href="/bus"
+                aria-label="Our product"
+                title="Our product"
+                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
+              >
+                <RiBusFill  className="text-2xl text-primary"/>
+              <p className="text-lg text-black">Buses</p>
               </Link>
               <Link
                 href="/"
@@ -46,8 +55,8 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiBusFill  className="text-2xl text-cyan-600"/>
-              <p className="text-xl">Buses</p>
+                <CgWebsite  className="text-2xl text-primary"/>
+              <p className="text-lg text-black">Web Check-In</p>
               </Link>
               <Link
                 href="/"
@@ -55,17 +64,8 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <CgWebsite  className="text-2xl text-cyan-600"/>
-              <p className="text-xl">Web Check-In</p>
-              </Link>
-              <Link
-                href="/"
-                aria-label="Our product"
-                title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
-              >
-                <BiSupport  className="text-2xl text-cyan-600"/>
-              <p className="text-xl">Support</p>
+                <BiSupport  className="text-2xl text-primary"/>
+              <p className="text-lg text-black">Support</p>
               </Link>
           </ul>
           <ul class=" items-center hidden space-x-8 lg:flex z-30">
@@ -135,12 +135,12 @@ export const Nav = () => {
                   <nav>
                     <ul class="space-y-4">
                     <Link
-                href="/"
+                href="/flight"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiFlightTakeoffLine  className="text-xl text-cyan-600"/>
+                <RiFlightTakeoffLine  className="text-lg  text-primary"/>
               <p>Flight</p>
               </Link>
               <Link
@@ -149,16 +149,16 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiHotelFill  className="text-xl text-cyan-600"/>
+                <RiHotelFill  className="text-lg  text-primary"/>
               <p>Hotels</p>
               </Link>
               <Link
-                href="/"
+                href="/bus"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiBusFill  className="text-xl text-cyan-600"/>
+                <RiBusFill  className="text-lg  text-primary"/>
               <p>Buses</p>
               </Link>
               <Link
@@ -167,7 +167,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <CgWebsite  className="text-xl text-cyan-600"/>
+                <CgWebsite  className="text-lg  text-primary"/>
               <p>Web Check-In</p>
               </Link>
               <Link
@@ -176,7 +176,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <BiSupport  className="text-xl text-cyan-600"/>
+                <BiSupport  className="text-lg  text-primary"/>
               <p>Support</p>
               </Link>
               <Link
