@@ -39,7 +39,7 @@ const Terms = () => {
       <li className="text-lg text-black ">Every day, thousands of business people and tourists book domestic and international air tickets through our different platforms.</li>
       <li className="text-lg text-black ">Incredibly cheap flights and a seamless flight booking process make traveling easier than ever.</li>
       <li className="text-lg text-black ">With SkyGoTrip you can book flights on Best Indian airlines like IndiGo, Vistara, Go First, Air India and SpiceJet etc.</li>
-      <li className="text-lg text-black ">SkyGoTrip is dedicated to making everyone's travel dreams come true.</li>
+      <li className="text-lg text-black ">SkyGoTrip is dedicated to making everyones travel dreams come true.</li>
       <li className="text-lg text-black ">If you have got an upcoming Trip plan, access the latest offers from SkyGoTrip and take your Trip.</li>
      
       <p className="text-lg text-black my-3 font-semibold ">How can I cancel flight ticket booking SkyGoTrip?</p>
