@@ -113,8 +113,10 @@ const Hero = () => {
                 <input value={from.content } className='bg-white py-2 focus:outline-none' type="text" placeholder='Bengaluru..' />
                
             </div>
+            <button onClick={handleClick}>
             <RiArrowLeftRightFill className='w-10 hidden lg:block'/>
             <RiArrowUpDownFill className='w-10 block lg:hidden'/>
+            </button>
            
             <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300 w-full md:w-44 xl:w-52">
                 <p className='text-lg font-medium'>To</p>
