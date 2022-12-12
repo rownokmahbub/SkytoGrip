@@ -27,8 +27,8 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiFlightTakeoffLine  className="text-2xl text-primary"/>
-              <p className="text-lg text-black">Flight</p>
+                <RiFlightTakeoffLine  className="text-2xl text-primary "/>
+              <p className="text-lg text-black hover:text-red-400">Flight</p>
               </Link>
            
               <Link
@@ -37,8 +37,8 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiHotelFill  className="text-2xl text-primary"/>
-              <p className="text-lg text-black">Hotels</p>
+                <RiHotelFill  className="text-2xl text-primary "/>
+              <p className="text-lg text-black hover:text-red-400">Hotels</p>
               </Link>
               <Link
                 href="/bus"
@@ -46,8 +46,8 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiBusFill  className="text-2xl text-primary"/>
-              <p className="text-lg text-black">Buses</p>
+                <RiBusFill  className="text-2xl text-primary "/>
+              <p className="text-lg text-black hover:text-red-400">Buses</p>
               </Link>
               <Link
                 href="/"
@@ -55,8 +55,8 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <CgWebsite  className="text-2xl text-primary"/>
-              <p className="text-lg text-black">Web Check-In</p>
+                <CgWebsite  className="text-2xl text-primary "/>
+              <p className="text-lg text-black hover:text-red-400">Web Check-In</p>
               </Link>
               <Link
                 href="/"
@@ -64,8 +64,8 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <BiSupport  className="text-2xl text-primary"/>
-              <p className="text-lg text-black">Support</p>
+                <BiSupport  className="text-2xl text-primary "/>
+              <p className="text-lg text-black hover:text-red-400">Support</p>
               </Link>
           </ul>
           <ul class=" items-center hidden space-x-8 lg:flex z-30">
@@ -140,7 +140,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiFlightTakeoffLine  className="text-lg  text-primary"/>
+                <RiFlightTakeoffLine  className="text-lg  text-primary "/>
               <p>Flight</p>
               </Link>
               <Link
@@ -149,7 +149,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiHotelFill  className="text-lg  text-primary"/>
+                <RiHotelFill  className="text-lg  text-primary "/>
               <p>Hotels</p>
               </Link>
               <Link
@@ -158,7 +158,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <RiBusFill  className="text-lg  text-primary"/>
+                <RiBusFill  className="text-lg  text-primary "/>
               <p>Buses</p>
               </Link>
               <Link
@@ -167,7 +167,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <CgWebsite  className="text-lg  text-primary"/>
+                <CgWebsite  className="text-lg  text-primary "/>
               <p>Web Check-In</p>
               </Link>
               <Link
@@ -176,7 +176,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 flex  items-center gap-2 capitalize"
               >
-                <BiSupport  className="text-lg  text-primary"/>
+                <BiSupport  className="text-lg  text-primary "/>
               <p>Support</p>
               </Link>
               <Link
