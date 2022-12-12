@@ -64,8 +64,10 @@ const Hero = () => {
        
       </Tab.List>
       <Tab.Panels>
-        <Tab.Panel className='w-full mx-auto flex flex-col lg:flex-row gap-5 lg:gap-5 items-center py-5 px-3 md:px-6'>
-        <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300 w-full md:w-44 xl:w-52">
+        
+        <Tab.Panel className='flex flex-col'>
+         <div className='w-full mx-auto flex flex-col lg:flex-row gap-5 lg:gap-5 items-center py-5 px-3 md:px-6'>
+         <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300 w-full md:w-44 xl:w-52">
                 <p className='text-lg font-medium'>From</p>
              
                 <input className='bg-white py-2 focus:outline-none' name='from' type="text" placeholder='Bengaluru..' onChange={handleChange} value={from.content}/>
@@ -104,10 +106,14 @@ const Hero = () => {
                     <option value="4 traveler">4 traveler</option>
                 </select>
             </div>
+         </div>
+
+            <button className='btn btn-primary flex justify-center items-center w-44 mx-auto rounded-full mb-3 capitalize'>Search Here</button>
        
         </Tab.Panel>
-        <Tab.Panel className='w-full mx-auto flex flex-col lg:flex-row gap-5 lg:gap-5 items-center py-5 px-3 md:px-6'>
-        <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300 w-full md:w-44 xl:w-52">
+        <Tab.Panel className='flex flex-col'>
+          <div className='w-full mx-auto flex flex-col lg:flex-row gap-5 lg:gap-5 items-center py-5 px-3 md:px-6'>
+          <div className="flex flex-col gap-1 bg-white px-4 py-2 rounded-xl border border-gray-300 w-full md:w-44 xl:w-52">
                 <p className='text-lg font-medium'>From</p>
              
                 <input value={from.content } className='bg-white py-2 focus:outline-none' type="text" placeholder='Bengaluru..' />
@@ -145,6 +151,8 @@ const Hero = () => {
                     <option value="4 traveler">4 traveler</option>
                 </select>
             </div>
+          </div>
+          <button className='btn btn-primary flex justify-center items-center w-44 mx-auto rounded-full mb-3 capitalize'>Search Here</button>
        
         </Tab.Panel>
       
